@@ -1,6 +1,3 @@
-#Shebang line
-#! /usr/bin/bash
-
 # Load in necessary tool kits.
 module load fastqc
 module load cutadapt
@@ -17,6 +14,8 @@ cd /home/FCAM/mcb5430/usr13/midterm_chip_M
 #################################################################################################################
 	# BASH SCRIPT
 #################################################################################################################
+#Shebang line
+#! /usr/bin/bash
 
 # Human Bowtie2 reference genome.
 index="/home/FCAM/mcb5430/STUFF/genomes/hg38/hg38_base_bt2/hg38_base"
